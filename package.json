@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-typescript-tailwindcss",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Baqir Nekfar",
+    "email": "baqirnekfarmaqsudi@gmail.com"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "@syncfusion/ej2-react-querybuilder": "^24.1.45",
+    "formik": "^2.4.5",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-querybuilder": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "postcss": "^8",
+    "prettier": "3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
